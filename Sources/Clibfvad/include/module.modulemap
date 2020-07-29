@@ -1,0 +1,4 @@
+module Clibfvad {
+    header "fvad.h"
+    export *
+}

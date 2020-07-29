@@ -1,0 +1,4 @@
+module libfvad {
+    umbrella "/Users/matsmollestad/Desktop/libfvad/Sources/libfvad/include"
+    export *
+}

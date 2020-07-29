@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"libfvad::libfvadPackageTests::ProductTarget" /* libfvadPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_77 /* Build configuration list for PBXAggregateTarget "libfvadPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_80 /* PBXTargetDependency */,
+			);
+			name = libfvadPackageTests;
+			productName = libfvadPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		35D0344224D043E200C3AC09 /* AudioTrackReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D0344124D043E200C3AC09 /* AudioTrackReader.swift */; };
+		OBJ_48 /* fvad.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* fvad.c */; };
+		OBJ_49 /* division_operations.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* division_operations.c */; };
+		OBJ_50 /* energy.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* energy.c */; };
+		OBJ_51 /* get_scaling_square.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* get_scaling_square.c */; };
+		OBJ_52 /* resample_48khz.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* resample_48khz.c */; };
+		OBJ_53 /* resample_by_2_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* resample_by_2_internal.c */; };
+		OBJ_54 /* resample_fractional.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* resample_fractional.c */; };
+		OBJ_55 /* spl_inl.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* spl_inl.c */; };
+		OBJ_56 /* vad_core.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* vad_core.c */; };
+		OBJ_57 /* vad_filterbank.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* vad_filterbank.c */; };
+		OBJ_58 /* vad_gmm.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* vad_gmm.c */; };
+		OBJ_59 /* vad_sp.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* vad_sp.c */; };
+		OBJ_66 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* test.swift */; };
+		OBJ_68 /* Clibfvad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "libfvad::Clibfvad::Product" /* Clibfvad.framework */; };
+		OBJ_75 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_86 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Tests.swift */; };
+		OBJ_88 /* libfvad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "libfvad::libfvad::Product" /* libfvad.framework */; };
+		OBJ_89 /* Clibfvad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "libfvad::Clibfvad::Product" /* Clibfvad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35D0343D24D040B900C3AC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "libfvad::Clibfvad";
+			remoteInfo = Clibfvad;
+		};
+		35D0343E24D040BB00C3AC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "libfvad::libfvad";
+			remoteInfo = libfvad;
+		};
+		35D0343F24D040BB00C3AC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "libfvad::Clibfvad";
+			remoteInfo = Clibfvad;
+		};
+		35D0344024D040BC00C3AC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "libfvad::libfvadTests";
+			remoteInfo = libfvadTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35D0344124D043E200C3AC09 /* AudioTrackReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrackReader.swift; sourceTree = "<group>"; };
+		OBJ_10 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_11 /* PATENTS */ = {isa = PBXFileReference; lastKnownFileType = text; path = PATENTS; sourceTree = "<group>"; };
+		OBJ_12 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		OBJ_13 /* libfvad.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = libfvad.pc.in; sourceTree = "<group>"; };
+		OBJ_15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_17 /* fvad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fvad.c; sourceTree = "<group>"; };
+		OBJ_19 /* division_operations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = division_operations.c; sourceTree = "<group>"; };
+		OBJ_20 /* energy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = energy.c; sourceTree = "<group>"; };
+		OBJ_21 /* get_scaling_square.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = get_scaling_square.c; sourceTree = "<group>"; };
+		OBJ_22 /* resample_48khz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample_48khz.c; sourceTree = "<group>"; };
+		OBJ_23 /* resample_by_2_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample_by_2_internal.c; sourceTree = "<group>"; };
+		OBJ_24 /* resample_fractional.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample_fractional.c; sourceTree = "<group>"; };
+		OBJ_25 /* spl_inl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spl_inl.c; sourceTree = "<group>"; };
+		OBJ_27 /* vad_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vad_core.c; sourceTree = "<group>"; };
+		OBJ_28 /* vad_filterbank.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vad_filterbank.c; sourceTree = "<group>"; };
+		OBJ_29 /* vad_gmm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vad_gmm.c; sourceTree = "<group>"; };
+		OBJ_30 /* vad_sp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vad_sp.c; sourceTree = "<group>"; };
+		OBJ_32 /* fvad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fvad.h; sourceTree = "<group>"; };
+		OBJ_33 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/matsmollestad/Desktop/libfvad/Sources/Clibfvad/include/module.modulemap; sourceTree = "<group>"; };
+		OBJ_35 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"libfvad::Clibfvad::Product" /* Clibfvad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Clibfvad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"libfvad::libfvad::Product" /* libfvad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libfvad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"libfvad::libfvadTests::Product" /* libfvadTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = libfvadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_68 /* Clibfvad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_88 /* libfvad.framework in Frameworks */,
+				OBJ_89 /* Clibfvad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_16 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* fvad.c */,
+				OBJ_18 /* signal_processing */,
+				OBJ_26 /* vad */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* signal_processing */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* division_operations.c */,
+				OBJ_20 /* energy.c */,
+				OBJ_21 /* get_scaling_square.c */,
+				OBJ_22 /* resample_48khz.c */,
+				OBJ_23 /* resample_by_2_internal.c */,
+				OBJ_24 /* resample_fractional.c */,
+				OBJ_25 /* spl_inl.c */,
+			);
+			path = signal_processing;
+			sourceTree = "<group>";
+		};
+		OBJ_26 /* vad */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* vad_core.c */,
+				OBJ_28 /* vad_filterbank.c */,
+				OBJ_29 /* vad_gmm.c */,
+				OBJ_30 /* vad_sp.c */,
+			);
+			path = vad;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* fvad.h */,
+				OBJ_33 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_34 /* libfvad */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* test.swift */,
+			);
+			name = libfvad;
+			path = Sources/libfvad;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_36 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* libfvadTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* libfvadTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* Tests.swift */,
+				35D0344124D043E200C3AC09 /* AudioTrackReader.swift */,
+			);
+			name = libfvadTests;
+			path = Tests/libfvadTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"libfvad::libfvadTests::Product" /* libfvadTests.xctest */,
+				"libfvad::Clibfvad::Product" /* Clibfvad.framework */,
+				"libfvad::libfvad::Product" /* libfvad.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_36 /* Tests */,
+				OBJ_39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Clibfvad */,
+				OBJ_34 /* libfvad */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Clibfvad */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* LICENSE */,
+				OBJ_11 /* PATENTS */,
+				OBJ_12 /* AUTHORS */,
+				OBJ_13 /* libfvad.pc.in */,
+				OBJ_15 /* README.md */,
+				OBJ_16 /* src */,
+				OBJ_31 /* include */,
+			);
+			name = Clibfvad;
+			path = Sources/Clibfvad;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"libfvad::Clibfvad" /* Clibfvad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "Clibfvad" */;
+			buildPhases = (
+				OBJ_47 /* Sources */,
+				OBJ_60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clibfvad;
+			productName = Clibfvad;
+			productReference = "libfvad::Clibfvad::Product" /* Clibfvad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"libfvad::SwiftPMPackageDescription" /* libfvadPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_71 /* Build configuration list for PBXNativeTarget "libfvadPackageDescription" */;
+			buildPhases = (
+				OBJ_74 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libfvadPackageDescription;
+			productName = libfvadPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"libfvad::libfvad" /* libfvad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "libfvad" */;
+			buildPhases = (
+				OBJ_65 /* Sources */,
+				OBJ_67 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_69 /* PBXTargetDependency */,
+			);
+			name = libfvad;
+			productName = libfvad;
+			productReference = "libfvad::libfvad::Product" /* libfvad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"libfvad::libfvadTests" /* libfvadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "libfvadTests" */;
+			buildPhases = (
+				OBJ_85 /* Sources */,
+				OBJ_87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_90 /* PBXTargetDependency */,
+				OBJ_91 /* PBXTargetDependency */,
+			);
+			name = libfvadTests;
+			productName = libfvadTests;
+			productReference = "libfvad::libfvadTests::Product" /* libfvadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "libfvad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"libfvad::Clibfvad" /* Clibfvad */,
+				"libfvad::libfvad" /* libfvad */,
+				"libfvad::SwiftPMPackageDescription" /* libfvadPackageDescription */,
+				"libfvad::libfvadPackageTests::ProductTarget" /* libfvadPackageTests */,
+				"libfvad::libfvadTests" /* libfvadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_48 /* fvad.c in Sources */,
+				OBJ_49 /* division_operations.c in Sources */,
+				OBJ_50 /* energy.c in Sources */,
+				OBJ_51 /* get_scaling_square.c in Sources */,
+				OBJ_52 /* resample_48khz.c in Sources */,
+				OBJ_53 /* resample_by_2_internal.c in Sources */,
+				OBJ_54 /* resample_fractional.c in Sources */,
+				OBJ_55 /* spl_inl.c in Sources */,
+				OBJ_56 /* vad_core.c in Sources */,
+				OBJ_57 /* vad_filterbank.c in Sources */,
+				OBJ_58 /* vad_gmm.c in Sources */,
+				OBJ_59 /* vad_sp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_66 /* test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_75 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_86 /* Tests.swift in Sources */,
+				35D0344224D043E200C3AC09 /* AudioTrackReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "libfvad::Clibfvad" /* Clibfvad */;
+			targetProxy = 35D0343D24D040B900C3AC09 /* PBXContainerItemProxy */;
+		};
+		OBJ_80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "libfvad::libfvadTests" /* libfvadTests */;
+			targetProxy = 35D0344024D040BC00C3AC09 /* PBXContainerItemProxy */;
+		};
+		OBJ_90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "libfvad::libfvad" /* libfvad */;
+			targetProxy = 35D0343E24D040BB00C3AC09 /* PBXContainerItemProxy */;
+		};
+		OBJ_91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "libfvad::Clibfvad" /* Clibfvad */;
+			targetProxy = 35D0343F24D040BB00C3AC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Clibfvad/include",
+				);
+				INFOPLIST_FILE = libfvad.xcodeproj/Clibfvad_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Clibfvad;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = Clibfvad;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Clibfvad/include",
+				);
+				INFOPLIST_FILE = libfvad.xcodeproj/Clibfvad_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Clibfvad;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = Clibfvad;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Clibfvad/include",
+				);
+				INFOPLIST_FILE = libfvad.xcodeproj/libfvad_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/Clibfvad/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = libfvad;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = libfvad;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Clibfvad/include",
+				);
+				INFOPLIST_FILE = libfvad.xcodeproj/libfvad_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/Clibfvad/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = libfvad;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = libfvad;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Clibfvad/include",
+				);
+				INFOPLIST_FILE = libfvad.xcodeproj/libfvadTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/Clibfvad/include/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = libfvadTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Clibfvad/include",
+				);
+				INFOPLIST_FILE = libfvad.xcodeproj/libfvadTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/Clibfvad/include/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = libfvadTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "libfvad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_44 /* Build configuration list for PBXNativeTarget "Clibfvad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_62 /* Build configuration list for PBXNativeTarget "libfvad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_71 /* Build configuration list for PBXNativeTarget "libfvadPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_72 /* Debug */,
+				OBJ_73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_77 /* Build configuration list for PBXAggregateTarget "libfvadPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_78 /* Debug */,
+				OBJ_79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_82 /* Build configuration list for PBXNativeTarget "libfvadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
